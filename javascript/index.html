@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Monkey, Pirate, Robot, Ninja, Zombie</title>
+	<link rel="stylesheet" type="text/css" href="public/css/style.css">
+	<script src='public/lib/Player.js'></script>
+  <script src='public/lib/Game.js'></script>
+  <script src='http://code.jquery.com/jquery-2.1.1.js'></script>
+  <script src='public/lib/Scripts.js'></script>
+</head>
+<body>
+
+	<h1>Monkey, Pirate, Robot, Ninja, Zombie</h1>
+
+	<section class='choices'>
+		<img src='public/images/monkey.png' data-pick='monkey'>
+		<img src='public/images/pirate.png' data-pick='pirate'>
+		<img src='public/images/robot.png' data-pick='robot'>
+		<img src='public/images/ninja.png' data-pick='ninja'>
+		<img src='public/images/zombie.png' data-pick='zombie'>
+	</section>
+
+	<section id='results-scores'>
+		<div class='score'>
+			<h2 id='name'></h2>
+			<h2 id='p1'>0</h2>
+		</div>
+
+		<ul id='results'></ul>
+
+		<div class='score'>
+			<h2>Computer</h2>
+			<h2 id='p2'>0</h2>
+		</div>
+	</section>
+
+</body>
+</html>
